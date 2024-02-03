@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 
+pip install django
 pip install --upgrade pip
 pip install -r requirements.txt
 
